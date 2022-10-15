@@ -1,0 +1,33 @@
+*::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    margin: 30px;
+    text-align: center;
+}
+button{
+    margin: 20px;
+    border: 2px solid rgb(20, 138, 185);
+    border-radius: 50px;
+    font-size: larger;
+    color: rgb(20, 138, 185);
+    padding: 20px;
+    font-size: larger;
+    width: 12em;
+}
+
+.signbar{
+    margin: 20px;
+}
+
+input{
+    padding: 20px;
+    font-size: large;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 70%;
+    border: 1px solid grey;
+
+}
