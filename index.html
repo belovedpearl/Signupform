@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="/#" method="post">
-        <fieldset>
     <h1>SIGNUP FORM</h1>
-
+    <form role="form" onsubmit="signUp(event)">
+        <fieldset>
     <div class="signbar">
         <input type="text" id="fname" placeholder="First Name" required>
     </div>
@@ -28,7 +27,7 @@
         <input type="password" id='pwd' placeholder="Password" required>
     </div>
 
-    <button type="button" id="btn">Sign Up</button>
+    <button type="submit" id="btn">Sign Up</button>
     </fieldset>
     </form>
 
@@ -38,5 +37,7 @@
 
         </div>
     </div>
+    
 </body>
+<script src="sign.js" type="text/javascript"></script>
 </html>
